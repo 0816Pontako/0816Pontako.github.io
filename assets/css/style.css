@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Oswald:wght@200..700&family=Poetsen+One&family=Raleway:ital,wght@0,100..900;1,100..900&family=Reddit+Mono:wght@200..900&family=Wix+Madefor+Display:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Oswald:wght@200..700&family=Poetsen+One&family=Raleway:ital,wght@0,100..900;1,100..900&family=Reddit+Mono:wght@200..900&family=Wix+Madefor+Display:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Danfo&family=Oswald:wght@200..700&family=Poetsen+One&family=Raleway:ital,wght@0,100..900;1,100..900&family=Reddit+Mono:wght@200..900&family=Wix+Madefor+Display:wght@400..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    
+}
+
+.wrapper{
+    width: 100%;
+    margin: auto;  
+    background-color: #295266;
+}
+
+.nav{
+    width: 100%;
+    background-color: antiquewhite;
+    text-align: center;
+    /* line-height: 2; */
+    z-index: 2;
+    position: sticky;
+    top:0;
+}
+
+.nav ul{
+    text-transform: uppercase;
+    float: left;
+    width: 100%;
+    height: 100px;
+    padding: 2em 3em 0 0;
+    text-align: right;
+    position: sticky;
+    background-color: rgba(24, 49, 61,0.4);
+}
+
+.nav ul li{
+    display: inline-block;
+    margin-left: 2em;
+    font-family: "Wix Madefor Display", sans-serif;
+    letter-spacing: 0.1em;
+    background-color: rgba(24, 49, 61,0);
+    
+}
+
+.nav ul li a{
+    text-decoration: none;
+    font-weight: 700px;
+    color: #fff;
+    background-color: rgba(24, 49, 61,0);
+}
+
+
+.my-video{
+    clear: both;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    padding-top: 0;
+}
+
+.my-video h1{
+    letter-spacing: 0.5em;
+    position: absolute;
+    z-index: 1;
+    top: 37%;
+    transform: translateY(-50%);
+    width: 100%;
+    font-family: "Wix Madefor Display", sans-serif;
+    color: #fff;
+    font-size: 2.5em;
+    background-color: transparent;
+}
+
+video{
+    margin: auto;
+    height: 100%;
+    position: relative;
+}
+
+.about{
+    display: flex;
+    height: 400px;
+    width: 70%;
+    margin: 9em auto 0;
+    position: relative;
+    
+}
+.introduce {
+    float: left;
+    width: 45%;
+    font-family: "Wix Madefor Display", sans-serif;
+    letter-spacing: 0.1em;
+    position: absolute;
+    top: 10%;
+    left: 7%;
+    color: #fff;
+}
+
+.introduce h1{
+    letter-spacing: 0.1em;   
+}
+
+.introduce p{
+    line-height: 2em;
+    padding-top:30px ;
+    font-size: 1.2em;
+}
+
+.introduce hr {
+    background-color: #fff;
+    height: 1px;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.me img{
+    position: absolute;
+    right: 10%;
+    height: 100%;
+    
+}
+
+.works{
+    text-align: center;
+    margin-top: 10%;
+    
+}
+
+
+.works h1{
+    font-family: "Raleway", sans-serif;
+    font-weight: lighter;
+    font-size: 3em;
+    letter-spacing: 0.1em;
+    color: #fff;
+    background-image: linear-gradient(90deg, rgba(26, 44, 53, 1) 6%, rgba(43, 87, 100, 1) 55%, rgba(48, 97, 96, 1));
+}
+
+/* .works p{
+    margin-top: 8%;
+    font-size: 1.5em;
+    letter-spacing: 0.5em;
+    color: #fff;
+    font-family: font-family: "Wix Madefor Display", sans-serif;
+} */
+
+
+.works-contents {
+  width: 100%;
+  height: auto;
+
+}
+
+.photo {
+    text-align: center;
+    margin-top: 3%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    
+}
+
+.photo img {
+    margin-right: 2%;
+    width: 48%;
+    height: 500px;
+    object-fit: cover;
+    margin-bottom: 2%; /* 画像間の間隔を設定 */ 
+}
+
+.photo img:nth-child(2),
+.photo img:nth-child(4),
+.photo img:nth-child(6){
+    margin-right: 0;
+}
+
+
+.accessories{
+    background-image: url(../image/リング１.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 50vh; 
+    position: relative;
+    margin-top: 5%;
+    
+}
+
+.ads-text{
+    position: absolute;
+    right: 6%;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+}
+
+.ads-text h3{
+    font-family: "Caveat", cursive;
+    background-color: transparent;
+    font-weight: lighter;
+    font-size: 150px;
+    
+}
+
+.ads-text p{
+    background-color: transparent;
+    font-size: 30px;
+    font-family: font-family: "Wix Madefor Display", sans-serif;
+    letter-spacing: 0.1em;
+}
+
+.ads-text a{
+    text-decoration: none;
+    display:inline-block;
+    padding: 1em;
+    margin-top: 5%;
+    background-color: rgba(41, 82, 102, 0.8);
+    color: #fff;
+    font-family: 'Raleway',sans-serif;
+    margin-top: 1.3em;
+    letter-spacing: 0.1em;
+}
+
+.contact{
+    text-align: center;
+    margin-top: 5%;   
+}
+
+.contact h1{
+    font-family: "Raleway", sans-serif;
+    font-weight: lighter;
+    font-size: 3em;
+    letter-spacing: 0.1em;
+    color: #fff;
+}
+
+.contact-contents{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feedback-input {
+    color:white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight:500;
+    font-size: 18px;
+    line-height: 22px;
+    background-color: transparent;
+    border:1px solid #fff;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width:30%;
+    box-sizing: border-box;
+    outline:0;
+  }
+  
+  .feedback-input:focus { border:2px solid #fff; }
+  
+  textarea {
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+  }
+  
+  [type="submit"] {
+    font-family: "Wix Madefor Display", sans-serif;
+    width: 30%;
+    border:1px solid #fff;
+    border:0;
+    cursor:pointer;
+    color:white;
+    font-size:24px;
+    padding-top:10px;
+    padding-bottom:10px;
+    transition: all 0.3s;
+    margin-top:-4px;
+    font-weight:700;
+    background-image: linear-gradient(90deg, rgba(26, 44, 53, 1) 6%, rgba(43, 87, 100, 1) 55%, rgba(48, 97, 96, 1));
+  }
+
+  .footer-social{
+    color: #fff;
+    overflow: auto;
+    padding: 1em 7.5%;
+    border-top: 1px solid #fff;
+    margin-top: 6em;
+    
+}
+
+.social-widgets{
+    width: 32.66%;
+    float: left;
+    text-align: center;
+
+}
+
+.social-widgets h5{
+    margin-top: 0.5em;
+    font-family: "Wix Madefor Display", sans-serif;
+    letter-spacing: 0.5em;
+}
+
+.social-widgets img {
+    width: 1.5em;
+}
+
+
+
+
+
+
+
+
